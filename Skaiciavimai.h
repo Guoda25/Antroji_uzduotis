@@ -75,24 +75,8 @@ public:
 
     }
 
-    //bool comparePagalPav(const Studentas& x, const Studentas& y) {
-    //    if (x.Pav.length() == y.Pav.length())
-    //        return x.Pav < y.Pav;
-    //    else
-    //        return x.Pav.length() < y.Pav.length();
-    //}
-    //
-    //bool vargsiuku_paz(const Studentas& x) {
-    //
-    //    return x.galut < 5.00;
-    //}
 };
-
 
 bool comparePagalPav(Studentas& x, Studentas& y);
 
 bool vargsiuku_paz(Studentas& x);
-
-//bool comparePagalPav(const Studentas& x, const Studentas& y);
-
-//void vid_median(vector<Studentas>& studentai, int paz_sk, int a);
