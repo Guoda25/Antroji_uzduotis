@@ -1,4 +1,4 @@
-# V.2
+# V1.2
 
 Šioje versijoje *Studentas* klasei realizuotas *"Rule of three"*
 
