@@ -42,7 +42,7 @@ int main()
         {
             ivedimas_automatiskai(studentai, i);
         }
-        Studentas::~Studentas;
+      
         rezultatai(studentai);
         break;
 
