@@ -10,6 +10,15 @@ private:
     float median;
 
 public:
+    
+        Studentas() {
+        Vard = "";
+        Pav = "";
+        paz = {};
+        egz = 0;
+        galut = 0;
+        median = 0;
+    }
 
     ~Studentas() { //I. destructor
         paz.clear();
