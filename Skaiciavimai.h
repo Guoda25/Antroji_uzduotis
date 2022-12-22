@@ -9,17 +9,15 @@ private:
     float galut = 0;
     float median = 0;
 
-public:
-    
-        //Getters
-    
+public:  
+    //Getters
     string getVard() { return Vard; }
     string getPav() { return Pav; }
     int getEgz() { return egz; }
     float getMedian() { return median; }
     float getGalut() { return galut; }
+    
     //Setters
-
     void setVard(string s) {
         Vard = s;
     }
