@@ -1,28 +1,5 @@
 #include "Skaiciavimai.h"
 
-
-
-void vardas(vector<Studentas>& studentas, int i)
-{
-    string a;
-    string b;
-    do
-    {
-        cout << "Iveskite studento nr. " << i + 1 << " varda:\n";
-        cin >> a;
-        cout << endl;
-    } while (a.length() < 0 || a.length() > 25 || tryCatch(a) != true);
-    studentas[i].setVard(a);
-    do
-    {
-        cout << "Iveskite studento nr. " << i + 1 << " pavarde:\n";
-        cin >> b;
-        cout << endl;
-    } while (b.length() < 0 && b.length() > 25 || tryCatch(b) != true);
-    studentas[i].setVard(b);
-}
-
-
 void ivedimas_automatiskai(vector<Studentas>& studentas, int i)
 {
     int temp;
