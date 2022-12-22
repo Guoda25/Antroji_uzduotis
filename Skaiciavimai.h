@@ -10,6 +10,14 @@ private:
     float median = 0;
 
 public:
+    
+        //Getters
+    
+    string getVard() { return Vard; }
+    string getPav() { return Pav; }
+    int getEgz() { return egz; }
+    float getMedian() { return median; }
+    float getGalut() { return galut; }
     //Setters
 
     void setVard(string s) {
@@ -24,15 +32,6 @@ public:
     void setPaz(int i) {
         paz.push_back(i);
     }
-
-    //Getters
-    
-    string getVard() { return Vard; }
-    string getPav() { return Pav; }
-    int getEgz() { return egz; }
-    float getMedian() { return median; }
-    float getGalut() { return galut; }
-
 
     void vid_median()
     {
