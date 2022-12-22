@@ -2,8 +2,6 @@
 #include "Skaiciavimai.h"
 #include "tryCatch.h"
 
-void vardas(vector<Studentas>& studentas, int i);
-
 void ivedimas_automatiskai(vector<Studentas>& studentas, int i);
 
 void ivedimas_ranka(vector<Studentas>& studentas, int i);
