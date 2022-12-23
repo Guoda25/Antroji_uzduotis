@@ -22,6 +22,7 @@ public:
     string getPav() const { return Pav; }
     int getAmz() const { return amzius; }
 
+    virtual void print() = 0;
 
 };
 
@@ -37,16 +38,21 @@ private:
 public:
 
     Studentas() {
-    
+        Vard = "";
+        Pav = "";
         paz = { 0 };
         egz = 0;
         galut = 0;
         median = 0;
     }
 
-    ~Studentas() { //I. destructor
-        paz.clear();
-    }
+    Studentas(string v, string p, int e, float g, float m) {
+        Vard = v;
+        Pav = p;
+        egz = e;
+        galut = g;
+        median = m;
+    };
 
     Studentas(const Studentas& s) { //II. copy constructor
         Vard = s.Vard;
@@ -136,16 +142,8 @@ public:
 
     }
 
-    bool comparePagalPav(const Studentas& x, const Studentas& y) {
-        if (x.Pav.length() == y.Pav.length())
-            return x.Pav < y.Pav;
-        else
-            return x.Pav.length() < y.Pav.length();
-    }
-
-    bool vargsiuku_paz(const Studentas& x) {
-
-        return x.galut < 5.00;
+    void print() {
+        cout << Vard << "  " << Pav << "  " << galut << endl;
     }
 };
 
