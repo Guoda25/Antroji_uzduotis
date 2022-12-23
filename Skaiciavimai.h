@@ -4,7 +4,7 @@
 class Studentas {
 private:
     std::string Vard, Pav;
-    std::vector<int> paz = { };
+    std::vector<int> paz;
     int egz;
     float galut;
     float median;
@@ -19,6 +19,14 @@ public:
         galut = 0;
         median = 0;
     }
+    
+    Studentas(string v, string p, int e, float g, float m) {
+        Vard = v;
+        Pav = p;
+        egz = e;
+        galut = g;
+        median = m;
+    };
 
     ~Studentas() { //I. destructor
         paz.clear();
