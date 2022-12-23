@@ -131,6 +131,10 @@ public:
     
         return x.galut < 5.00;
     }
+    
+    void print() {
+        cout << Vard << "  " << Pav << "  " << galut << endl;
+    }
 };
 
 
