@@ -119,18 +119,6 @@ public:
         } while (Pav.length() < 0 && Pav.length() > 25 || tryCatch(Pav) != true);
     
     }
-
-    bool comparePagalPav(const Studentas& x, const Studentas& y) {
-        if (x.Pav.length() == y.Pav.length())
-            return x.Pav < y.Pav;
-        else
-            return x.Pav.length() < y.Pav.length();
-    }
-    
-    bool vargsiuku_paz(const Studentas& x) {
-    
-        return x.galut < 5.00;
-    }
     
     void print() {
         cout << Vard << "  " << Pav << "  " << galut << endl;
