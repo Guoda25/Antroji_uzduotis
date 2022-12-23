@@ -31,8 +31,6 @@ Pasirinkus **F**:
 
   Programa automatiškai nuskaito studentų duomenis iš "studentai1000000.txt" failo ir išveda rezultatus į naują tekstinį failą "kursiokai.txt"
 
-***Tam, kad ši funkcija veiktų, šalia 1.5.exe failo turite turėti tekstinį failą pavadinimu "studentai10000.txt", priešingu atveju ši funkcija neveiks***
-
 Pasirinkus **G**:  
   
   Programa automatiškai nuskaito studentų duomenis iš 5 atsitiktinai sugeneruotų failų, atspausdina į ekraną porgramos veikimo spartos rezultatus ir išveda studentų     rezultatus (iš studentai_10000000.txt failo) į du naujus tekstinius failus "vargsiukai.txt" ir "kietiakai.txt" 
