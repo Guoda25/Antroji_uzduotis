@@ -1,7 +1,3 @@
-# V1.5
+# V2.0
 
-Šioje versijoje yra dvi klasės:
-
-1) Bazinė klasė "Zmogus"
-
-2) Išvestinė klasė "Studentas"
+Sukurta programos dokumentacija naudojant ***Doxygen***. Dokumentacija galima rasti ***html*** faile pasirinkus ***index***.
